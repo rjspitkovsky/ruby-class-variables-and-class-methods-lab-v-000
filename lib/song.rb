@@ -42,7 +42,7 @@ attr_reader :name, :artist, :genre
 
   def self.artist_count
     count = 1
-    hash =  {}
+    hash = {}
     @@artists.each do |artist|
       if hash.keys.include?(artist)
         hash[artist] = count + 1
