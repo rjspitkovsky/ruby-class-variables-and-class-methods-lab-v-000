@@ -30,7 +30,9 @@ attr_reader :name, :artist, :genre
     count = 0
     hash = {}
     @@genres.each do |genre|
+      if hash[genre] == nil
       hash[genre] = count+1
+    end 
     end
     hash
   end
