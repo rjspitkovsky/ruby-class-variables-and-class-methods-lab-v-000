@@ -11,8 +11,19 @@ attr_reader :name, :artist, :genre
     @genre = genre
     @@count += 1
     @@artists << artist
-    @@genres << genre 
+    @@genres << genre
   end
 
+  def count
+    @@count
+  end
+
+  def artists
+    @@artists
+  end
+
+  def genres
+    @@genres
+  end 
 
 end
