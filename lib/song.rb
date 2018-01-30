@@ -32,7 +32,7 @@ attr_reader :name, :artist, :genre
     @@genres.each do |genre|
       if hash.include?(genre)
       hash[genre] = count+1
-    end 
+    end
     end
     hash
   end
