@@ -27,10 +27,10 @@ attr_reader :name, :artist, :genre
   end
 
   def self.genre_count
-    count = 0
+    count = 1
     hash = {}
     @@genres.each do |genre|
-      hash[genre] = count + 1
+      hash[genre] = count
     end
     hash
   end
