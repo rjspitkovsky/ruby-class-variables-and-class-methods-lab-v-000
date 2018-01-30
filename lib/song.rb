@@ -15,15 +15,15 @@ attr_reader :name, :artist, :genre
   end
 
   def count
-    @@count
+    return @@count
   end
 
   def artists
-    @@artists
+    return @@artists
   end
 
   def genres
-    @@genres
-  end 
+    return @@genres
+  end
 
 end
