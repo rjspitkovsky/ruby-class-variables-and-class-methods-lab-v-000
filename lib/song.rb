@@ -14,16 +14,16 @@ attr_reader :name, :artist, :genre
     @@genres << genre
   end
 
-  def count
-    return @@count
+  def self.count
+    @@count
   end
 
-  def artists
-    return @@artists
+  def self.artists
+    @@artists
   end
 
-  def genres
-    return @@genres
+  def self.genres
+    @@genres
   end
 
 end
